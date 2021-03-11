@@ -7,7 +7,7 @@
 ## ------------------------------------------------------
 
 ## Number of zookeeper servers, should be odd number
-servers: 3
+servers: 1
 
 ## Minimum number of servers available to ensure the availability of zookeeper service
 ## minAvailable: 2
@@ -74,7 +74,7 @@ persistence:
   # dataDirStorageClass: ""
 
   ## Size for data log dir, which is a dedicated log device to be used, and helps avoid competition between logging and snaphots.
-  dataLogDirSize: 5Gi
+  dataLogDirSize: 1Gi
   # dataLogDirStorageClass: ""
 
 
